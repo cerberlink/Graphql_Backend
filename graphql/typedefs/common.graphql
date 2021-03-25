@@ -1,0 +1,7 @@
+# define an interface to apply to every single entity
+
+# Interface
+interface Timestamps {
+	createdAt: Date!
+	updatedAt: Date!
+}
